@@ -1,0 +1,148 @@
+*{
+  padding: 0px;
+  margin: 0px;
+}
+body
+{
+  background-color: rgb(255, 255, 255);
+}
+.GS{
+  width: 100px;
+  height: 80px;
+  cursor: pointer;
+  }
+  nav{
+    width: 100%;
+    margin: auto;
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   }
+   nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}  
+nav ul li a{
+  text-decoration: none;
+  color: #d3cc39;
+}
+
+nav ul li a:hover{
+  color: #ff4321;
+} 
+header
+{
+  background-color: black;
+  display: flexbox;
+  align-items: center;
+  justify-content: center;
+  color: azure;
+  box-shadow: 5px 5px 10px black;
+  height: 105px;
+}
+h1
+{
+  font-family: system 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  letter-spacing: 10px;
+  text-align: center;
+  padding-top: 30px;
+}
+main
+{
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  height: 75vh;
+  width: 100%;
+  background: url('../images/gopi.jpg') no-repeat center center;
+  background-size: cover;
+}
+.form_1 {
+  width: 500px;
+  padding: 40px;
+  border-radius: 8px;
+  background-color: white;
+  font-family: 'system-ui';
+  box-shadow: 5px 5px 10px rgb(0,0,0,0.3);
+}
+.form {
+  text-transform: uppercase;
+}
+.form > label {
+  letter-spacing: 3px;
+  font-size: 1rem;
+}
+.info {
+  text-align: center;
+  margin-top: 20px;
+}
+.info{
+  letter-spacing: 1px;
+}
+.field {
+  width: 100%;
+  border-radius: 6px;
+  border-style: solid;
+  border-width: 1px;
+  padding: 5px 0px;
+  text-indent: 6px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  font-family: 'system-ui';
+  font-size: 0.9rem;
+  letter-spacing: 2px;
+}
+.Submit {
+  color: black;
+  border-style: none;
+  border-radius: 5px;
+  background-color: #ec731c;
+  padding: 8px 20px;
+  font-family: 'system-ui';
+  text-transform: uppercase;
+  letter-spacing: .8px;
+  display: block;
+  margin: auto;
+  margin-top: 10px;
+  box-shadow: 2px 2px 5px rgb(0,0,0,0.2);
+  cursor: pointer;
+}
+footer {
+
+  background-color: black;
+  color: white;
+  display: flex;
+  align-items: right;
+  justify-content: center;
+  
+}
+
+#footer {
+  display: flex;
+  font-family: 'Poppins',sans-serif;
+  position: relative;
+  flex-direction: column;
+  background-color: black;
+  justify-content: center;
+  align-items: center;
+  height: 25.5vh;
+  text-decoration: none;
+
+
+}
+.foot ul li a {
+  text-decoration: none;
+  color:white
+  
+  
+}
+#footer ul li{
+  color: white;
+  list-style:none;
+  margin: 30px 40px;
+  padding-top: 20px;
+  margin-top: 20px;
+  text-decoration: none;
+  margin-bottom: 20px;}
